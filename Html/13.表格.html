@@ -1,0 +1,41 @@
+<html>
+    <head><title>表格</title></head>
+    <body>
+
+        <!--2*3表格-->
+        <!--要加上表格要先在頭尾打 <tr> </tr>:這是一整個大格子-->
+        <!--<td> </td>:這是在一個大格子中再分出幾個小格子-->
+        <p>
+        <table border="1">
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table>
+        </p>
+
+        <p>
+        <!--colspan-->
+        <table border="1">
+            <tr><td>1</td><td colspan="2">2 3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table>
+        </p>
+
+        <p>
+        <!--rowspan-->
+        <table border="1">
+            <tr><td rowspan="2">1 4</td><td>2</td><td>3</td></tr>
+            <tr><td>5</td><td>6</td></tr>
+        </table>
+        </p>
+
+
+        <table border="1">
+            <tr><td>1</td><td colspan="2" rowspan="2">2356</td>
+            <tr><td>4</td></tr>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+            
+        </table>
+
+
+    </body>
+</html>
